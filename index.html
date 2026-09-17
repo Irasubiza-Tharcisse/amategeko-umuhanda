@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="rw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umuhanda | Amategeko y'umuhanda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home" data-view="home"><span class="brand-mark">✓</span><span><strong>UMUHANDA</strong><small>Kwiga neza. Gutwara neza.</small></span></a>
+      <nav class="nav" aria-label="Navigation nyamukuru">
+        <a href="#home" data-view="home" class="nav-link active"><span>⌂</span> Ahabanza</a>
+        <a href="#quiz" data-view="quiz" class="nav-link"><span>✓</span> Ikizamini</a>
+        <a href="#topics" data-view="topics" class="nav-link"><span>◈</span> Ingingo</a>
+        <a href="#review" data-view="review" class="nav-link"><span>↺</span> Isubiramo</a>
+      </nav>
+      <div class="sidebar-note"><span class="tiny-dot"></span><div><strong>Ikizamini cyawe</strong><small>Ibibazo byose bya PDF</small></div></div>
+      <div class="source-note">Bishingiye kuri<br><strong>Amategeko y'umuhanda</strong><br><small>Inyandiko y'amasomo</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="mobile-brand">UMUHANDA <span>✓</span></div><div class="topbar-meta"><span class="status-dot"></span> Kwitegura ikizamini <span class="date-chip">Ejo</span></div></header>
+      <div id="app" class="content"></div>
+    </main>
+  </div>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
