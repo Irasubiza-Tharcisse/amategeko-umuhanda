@@ -19,6 +19,8 @@
 .topic-row{text-align:left;width:100%;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
 .topic-row:hover{border-color:#00a1de;box-shadow:0 10px 24px rgba(0,161,222,.12);transform:translateY(-2px)}
 .learning-materials{margin-top:56px;padding-top:28px;border-top:1px solid var(--line)}
+.pdf-shortcut{display:flex;align-items:center;gap:12px;width:max-content;max-width:100%;margin:0 0 24px;padding:12px 16px;background:#00a1de;color:#fff;border-radius:10px;text-decoration:none;box-shadow:0 8px 18px rgba(0,161,222,.2)}
+.pdf-shortcut > span:first-child{font-size:22px}.pdf-shortcut strong,.pdf-shortcut small{display:block}.pdf-shortcut strong{font:700 14px 'Space Grotesk'}.pdf-shortcut small{margin-top:3px;font-size:11px;color:#e9f8ff}.pdf-shortcut:hover{background:#087ca8}
 .learning-materials .section-head{align-items:end;margin-bottom:18px}
 .learning-materials h2{margin:0;font:700 26px 'Space Grotesk'}
 .materials-count{color:var(--muted);font-size:12px;font-weight:700}
